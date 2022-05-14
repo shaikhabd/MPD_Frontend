@@ -35,7 +35,7 @@
 				<a href="src\routes\empty.svelte" class="button bcolor false">
 					<strong>Tools</strong>
 				</a>
-				<a href="src\routes\help.svelte" class="button bcolor false">
+				<a href="Help" class="button bcolor false">
 					<strong>Help</strong>
 				</a>
 			</div>

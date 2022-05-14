@@ -1,10 +1,11 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 <script>
 import Navbar from "../components/Navbar.svelte";
 import Footer from "../components/Footer.svelte";
 </script>
-<section>
 <Navbar />
 <section style="padding-left: 5%;padding-right: 5%;">
+    <br>
     <h1>INTRODUCTION</h1>
     <h4>
     Medicinal plants, also called medicinal herbs, have been discovered and used in traditional medicine practices since prehistoric times. Plants synthesise hundreds of chemical compounds for functions including defence against insects, fungi, diseases, and herbivorous mammals. Numerous phytochemicals with potential or established biological activity have been identified. However, since a single plant contains widely diverse phytochemicals, the effects of using a whole plant as medicine are uncertain. Further, the phytochemical content and pharmacological actions, if any, of many plants having medicinal potential remain unassessed by rigorous scientific research to define efficacy and safety. 
@@ -107,6 +108,7 @@ First, select the type of search query from the dropdown list on the left of the
     <h3>Select the database ids (NCBI, PubChem, Uniprot, PMID) to navigate to the respective pages.</h3>
 </ul>
     </section>
+    <br>
     <Footer />
-</section>
+
     
