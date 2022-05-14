@@ -25,6 +25,7 @@
         background-size: contain;
         background-repeat: round;
         background-image: url("bg.jpeg"),linear-gradient(0deg, rgba(0,0,0,0.8104283949908089) 0%, rgba(255,255,255,0) 100%);
+        background-image: url("https://mllnmmifwmqq.i.optimole.com/suR9o-M-AWt0fYdE/w:750/h:500/q:90/https://certiprosolutions.com/wp-content/uploads/Plant-min.jpg"),linear-gradient(0deg, rgba(0,0,0,0.8104283949908089) 0%, rgba(255,255,255,0) 100%);
     }
     *{font-family: 'Noto Serif', serif;}
 
