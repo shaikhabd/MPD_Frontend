@@ -15,16 +15,12 @@
 	});
 </script>
 
-<nav
-	style=" background-color: rgba(0, 0, 0,0.1);"
-	class="navbar"
-	role="navigation"
-	aria-label="main navigation"
->
-	<div class="navbar-brand" id="navbar">
-		<a href="/" class="navbar-item false">
-			<label class=" rs-phone" for="title">Medicinal Plant Database</label>
+<nav class="navbar nav-style" role="navigation" aria-label="main navigation">
+	<div class="set full navbar-brand" id="navbar">
+		<a href="/" class="navbar-item false ">
+			<label class="rs-phone" for="title">Powered by</label>
 		</a>
+		<img src="logo.png" alt=""/>
 	</div>
 
 	<button class="menu-toggle">
@@ -56,9 +52,29 @@
 </nav>
 
 <style>
+	.nav-style {
+		background-color: rgba(0, 0, 0, 0.1);
+		height: 15vh;
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+	.set {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	img {
+		position: relative;
+		top: 0%;
+		left: 0%;
+		width: 80%;
+		height: 80%;
+	}
 	.rs-align {
 		display: flex;
 	}
+
 	.menu-toggle {
 		top: 0.7rem;
 		right: 2%;
@@ -91,18 +107,35 @@
 	.rs-phone {
 		color: black;
 		font-weight: 700;
-		font-size: 20px;
+		font-size: 8px;
 	}
 
-	@media screen and (max-width: 725px) {
+	@media screen and (max-width: 1050px) {
+		.set {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			height: 100%;
+		}
 		.rs-phone {
-			font-size: large;
+			font-size: 8px;
 		}
 		.menu-toggle {
 			display: flex;
 		}
 		.rs-align {
 			display: none;
+		}
+		img {
+			height: 100px;
+			width: 200px;
+		}
+	
+	}
+	@media screen and (max-width:1100px){
+		.nav-style{
+			padding-left: 0%;
+			padding-right: 0%;
 		}
 	}
 </style>
