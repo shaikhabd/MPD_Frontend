@@ -20,7 +20,7 @@
 		<a href="/" class="navbar-item false ">
 			<label class="rs-phone" for="title">Powered by</label>
 		</a>
-		<img src="logo.png" alt="https://www.mitbio.edu.in/wp-content/themes/mitsbrs/assets/images/logo.png"/>
+		<img src="https://www.mitbio.edu.in/wp-content/themes/mitsbrs/assets/images/logo.png" alt="https://www.mitbio.edu.in/wp-content/themes/mitsbrs/assets/images/logo.png"/>
 	</div>
 
 	<button class="menu-toggle">
