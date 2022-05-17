@@ -55,8 +55,8 @@
 	.nav-style {
 		background-color: rgba(0, 0, 0, 0.1);
 		height: 15vh;
-		padding-left: 15%;
-		padding-right: 15%;
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 	.set {
 		position: relative;
