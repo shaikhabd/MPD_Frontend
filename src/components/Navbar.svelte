@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 <script>
 	import { onMount } from 'svelte';
 
@@ -18,7 +19,7 @@
 <nav class="navbar nav-style" role="navigation" aria-label="main navigation">
 	<div class="set full navbar-brand" id="navbar">
 		<a href="/" class="navbar-item false ">
-			<label class="rs-phone" for="title">Powered by</label>
+			<!-- <label class="rs-phone" for="title">Powered by</label> -->
 		</a>
 		<img src="https://www.mitbio.edu.in/wp-content/themes/mitsbrs/assets/images/logo.png" alt="https://www.mitbio.edu.in/wp-content/themes/mitsbrs/assets/images/logo.png"/>
 	</div>
@@ -40,7 +41,7 @@
 				<a href="#sb" class="button bcolor false">
 					<strong>Search</strong>
 				</a>
-				<a href="src\routes\empty.svelte" class="button bcolor false">
+				<a href="tools" class="button bcolor false">
 					<strong>Tools</strong>
 				</a>
 				<a href="Help" class="button bcolor false">
@@ -66,7 +67,7 @@
 	}
 	img {
 		position: relative;
-		top: 0%;
+		top: -10%;
 		left: 0%;
 		width: 80%;
 		height: 80%;
