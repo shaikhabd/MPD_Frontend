@@ -41,17 +41,17 @@ crossorigin="anonymous"> </script>
  <br>
 <div id="ci" class="bg-holder curve" style=" background-color: aliceblue;">
 <h1 class="curve gcolor" style=" background:linear-gradient(180deg, #4bf7aa 0%, #63f636 100%); padding: 1.3%; font-size: larger; color:white; margin-bottom: 2%;font-weight: 600;">Compound Information</h1>
-<p class="space" ><label for="text">Name: </label>{DataBySpeciesName[0].name_of_small_molecule_or_Compound}</p><hr>
-<p class="space" ><label for="text">PubChem_Id: </label><a target="_blank" href="{DataBySpeciesName[0].pubChem_link}">{DataBySpeciesName[0].pubChem_Id}</a></p><hr>
-<p class="space"><label for="text">DrugBank_Id: </label><a target="_blank" href="{DataBySpeciesName[0].drugbank_link}">{DataBySpeciesName[0].drugBank_Id}</a></p><hr>
+<p class="space" ><label for="text">Name: </label>{DataBySpeciesName[0].Name_of_small_molecule_or_Compound}</p><hr>
+<p class="space" ><label for="text">PubChem_Id: </label><a target="_blank" href="{DataBySpeciesName[0].PubChem_link}">{DataBySpeciesName[0].PubChem_Id}</a></p><hr>
+<p class="space"><label for="text">DrugBank_Id: </label><a target="_blank" href="{DataBySpeciesName[0].Drugbank_link}">{DataBySpeciesName[0].Drugbank_inactive}</a></p><hr>
 <p class="space"><label for="text">Structure:</label></p>
-<img style="margin-left: 2%;" height="100" width="200" src="https://go.drugbank.com/structures/DB00424/image.svg" alt="image not available">
-<p style="margin-left: 2%; font-weight: 300;">Smiles: {DataBySpeciesName[0].smiles}</p>
+<img style="margin-left: 2%;" height="100" width="200" src="https://go.drugbank.com/structures/{DataBySpeciesName[0].Drugbank_inactive}/image.svg" alt="image not available">
+<p style="margin-left: 2%; font-weight: 300;">Smiles: {DataBySpeciesName[0].SMILES}</p>
 <!-- {DataBySpeciesName[0].drugBank_Id} -->
-<button class="sbutton"><a target="_blank" style="text-decoration: none; color: white;" href="http://localhost:8080/mol3Dview/{DataBySpeciesName[0].name_of_small_molecule_or_Compound}">View 3D Structure</a></button>
+<button class="sbutton"><a target="_blank" style="text-decoration: none; color: white;" href="http://localhost:8080/mol3Dview/{DataBySpeciesName[0].Name_of_small_molecule_or_Compound}">View 3D Structure</a></button>
 <hr>
-<p class="space"><label for="text">Mode Of Action: </label>{DataBySpeciesName[0].moA}</p><hr>
-<p class="space"><label for="text">Side_Effects_or_Toxicity: </label>{DataBySpeciesName[0].side_Effects_or_Toxicity}</p><hr>
+<p class="space"><label for="text">Mode Of Action: </label>{DataBySpeciesName[0].MoA}</p><hr>
+<p class="space"><label for="text">Side_Effects_or_Toxicity: </label>{DataBySpeciesName[0].Side_Effects_or_Toxicity}</p><hr>
 </div>
 <br>
 
@@ -70,8 +70,8 @@ crossorigin="anonymous"> </script>
 	  {#each DataBySpeciesName as count}
 	  <tbody>
 		<tr>
-		  <td>{count.gene_Name}</td>
-		  <td><a target="_blank" href="{count.gene_link}">{count.target_gene_NCBI_Link}</a></td>
+		  <td>{count.Gene_Name}</td>
+		  <td><a target="_blank" href="{count.Gene_link}">{count.Target_gene_NCBI_Link}</a></td>
 		</tr>
 		{/each}
   </table>
@@ -94,8 +94,8 @@ crossorigin="anonymous"> </script>
 		  {#each DataBySpeciesName as count}
 		  <tbody>
 			<tr>
-			  <td>{count.protein_Name}</td>
-			  <td><a target="_blank" style="text-decoration: none;" href="{count.protein_link}">{count.target_Protein_Uniprot_Link}</a></td>
+			  <td>{count.Protein_Name}</td>
+			  <td><a target="_blank" style="text-decoration: none;" href="{count.Protein_link}">{count.Target_Protein_Uniprot_Link}</a></td>
 			</tr>
 			{/each}
 	  </table>

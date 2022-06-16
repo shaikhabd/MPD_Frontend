@@ -41,20 +41,20 @@ export let DataBySpeciesName;
 	
 <br>
 <div id="pi" class="bg-holder curve" style="background-color: aliceblue;">
-<h1 class="gcolor curve" style=" padding: 1.3%; font-size: larger; color:white; margin-bottom: 2%;font-weight: 600;">Plant Information for {DataBySpeciesName[0].species_Name}</h1>
+<h1 class="gcolor curve" style=" padding: 1.3%; font-size: larger; color:white; margin-bottom: 2%;font-weight: 600;">Plant Information for {DataBySpeciesName[0].Species_Name}</h1>
 
 <p style="display: flex; padding: 1%;">
-	<label style="margin-left: 2%;margin-right: 2%;" for="text">Introduction: <label style="font-weight: 400;">{DataBySpeciesName[0].introduction}</label></label>	
-<img src="../../mpdimg/{DataBySpeciesName[0].picture_of_plant}.jpg" alt="Image currently not available">
+	<label style="margin-left: 2%;margin-right: 2%;" for="text">Introduction: <label style="font-weight: 400;">{DataBySpeciesName[0].Introduction}</label></label>
+<img src="../../mpdimg/{DataBySpeciesName[0].Picture_of_plant}.jpg" alt="Image currently not available">
 
 </p><hr>
 
 
-<p ><label for="text" class="space">Origin: </label>{DataBySpeciesName[0].origin}</p><hr>
-<p ><label for="text"class="space">Species_Name: </label>{DataBySpeciesName[0].species_Name}</p><hr>
-<p ><label for="text"class="space">synonym: </label>{DataBySpeciesName[0].synonym}</p><hr>
-<p ><label for="text"class="space">Origin: </label>{DataBySpeciesName[0].origin}</p><hr>
-<p ><label for="text"class="space">genome_Sequence_Link: </label>{DataBySpeciesName[0].genome_Sequence_Link}</p><hr>
+<p ><label for="text" class="space">Origin: </label>{DataBySpeciesName[0].Origin}</p><hr>
+<p ><label for="text"class="space">Species_Name: </label>{DataBySpeciesName[0].Species_Name}</p><hr>
+<p ><label for="text"class="space">synonym: </label>{DataBySpeciesName[0].Synonym}</p><hr>
+<p ><label for="text"class="space">Origin: </label>{DataBySpeciesName[0].Origin}</p><hr>
+<p ><label for="text"class="space">genome_Sequence_Link: </label>{DataBySpeciesName[0].Genome_Sequence_Link}</p><hr>
 </div>
 <br>
 <div id="cl" class="curve" style="background-color: aliceblue;">
@@ -72,8 +72,8 @@ export let DataBySpeciesName;
 	  {#each DataBySpeciesName as count}
 	  <tbody>
 		<tr>
-		  <td>{count.plant_part}</td>
-		  <td>{count.name_of_small_molecule_or_Compound}</td>
+		  <td>{count.Plant_part}</td>
+		  <td>{count.Name_of_small_molecule_or_Compound}</td>
 		</tr>
 		{/each}
   </table>

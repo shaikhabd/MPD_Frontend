@@ -43,9 +43,9 @@ export let DataBySpeciesName;
 <br>
 <div id="gi" class="bg-holder curve" style="background-color: aliceblue;">
 <h1 class="curve gcolor" style="padding: 1.3%; font-size: larger; color:white; margin-bottom: 2%;font-weight: 600;">Gene Information</h1>
-<p class="space" ><label for="text">Name: </label>{DataBySpeciesName[0].gene_Name}</p><hr>
-<p class="space" ><label for="text">NCBI id: </label><a target="_blank" href="{DataBySpeciesName[0].gene_link}">{DataBySpeciesName[0].target_gene_NCBI_Link}</a></p><hr>
-<p class="space"><label for="text">Summary: </label>{DataBySpeciesName[0].drugBank_Id}</p><hr>
+<p class="space" ><label for="text">Name: </label>{DataBySpeciesName[0].Gene_Name}</p><hr>
+<p class="space" ><label for="text">NCBI id: </label><a target="_blank" href="{DataBySpeciesName[0].Gene_link}">{DataBySpeciesName[0].Target_gene_NCBI_Link}</a></p><hr>
+<p class="space"><label for="text">Summary: </label>{DataBySpeciesName[0].Summary}</p><hr>
 
 </div>
 <br>
@@ -64,8 +64,8 @@ export let DataBySpeciesName;
 	  {#each DataBySpeciesName as count}
 	  <tbody>
 		<tr>
-		  <td>{count.species_Name}</td>
-		  <td>{count.name_of_small_molecule_or_Compound}</td>
+		  <td>{count.Species_Name}</td>
+		  <td>{count.Name_of_small_molecule_or_Compound}</td>
 		</tr>
 		{/each}
   </table>

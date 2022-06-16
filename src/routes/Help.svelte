@@ -5,6 +5,7 @@ import Footer from "../components/Footer.svelte";
 </script>
 <Navbar />
 <section style="padding-left: 5%;padding-right: 5%;">
+    <div class="bg">
     <br>
     <h1>INTRODUCTION</h1>
     <h4>
@@ -107,8 +108,25 @@ First, select the type of search query from the dropdown list on the left of the
     </li>
     <h3>Select the database ids (NCBI, PubChem, Uniprot, PMID) to navigate to the respective pages.</h3>
 </ul>
+</div>
     </section>
     <br>
     <Footer />
 
-    
+<style>
+    h1{
+        font-size: x-large;
+        font-weight: 600;
+        color: #4caae7;
+    }
+    h3{
+        font-size: medium;
+        font-weight: 500;
+        color: #4caae7;
+    }
+    .bg{
+        background-color: aliceblue;
+        padding-left: 2%;
+        padding-right:2%;
+    }
+</style>

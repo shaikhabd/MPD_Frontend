@@ -43,10 +43,10 @@ export let DataBySpeciesName;
 <br>
 <div id="pi" class="bg-holder curve" style="background-color: aliceblue;">
 <h1 class="curve gcolor" style="background-color: aquamarine; padding: 1.3%; font-size: larger; color:white; margin-bottom: 2%;font-weight: 600;">Protein Information</h1>
-<p class="space" ><label for="text">Name: </label>{DataBySpeciesName[0].protein_Name}</p><hr>
-<p class="space" ><label for="text">Uniprot id: </label><a target="_blank" href="{DataBySpeciesName[0].protein_link}">{DataBySpeciesName[0].target_Protein_Uniprot_Link}</a></p><hr>
-<p class="space"><label for="text">Function: </label>{DataBySpeciesName[0].protein_Function}</p><hr>
-<p class="space"><label for="text">Protein Interaction: </label><a target="_blank" href="{DataBySpeciesName[0].string_link}">{DataBySpeciesName[0].target_Protein_Interaction_STRING_Link_and_network_visualization}</a></p><hr>
+<p class="space" ><label for="text">Name: </label>{DataBySpeciesName[0].Protein_Name}</p><hr>
+<p class="space" ><label for="text">Uniprot id: </label><a target="_blank" href="{DataBySpeciesName[0].Protein_link}">{DataBySpeciesName[0].Target_Protein_Uniprot_Link}</a></p><hr>
+<p class="space"><label for="text">Function: </label>{DataBySpeciesName[0].Protein_Function}</p><hr>
+<p class="space"><label for="text">Protein Interaction: </label><a target="_blank" href="{DataBySpeciesName[0].String_link}">{DataBySpeciesName[0].Target_Protein_Interaction_STRING_Link_and_network_visualization}</a></p><hr>
 </div>
 <br>
 <div id="cl" class="curve" style="background-color: aliceblue;">
@@ -64,8 +64,8 @@ export let DataBySpeciesName;
 	  {#each DataBySpeciesName as count}
 	  <tbody>
 		<tr>
-		  <td>{count.species_Name}</td>
-		  <td>{count.name_of_small_molecule_or_Compound}</td>
+		  <td>{count.Species_Name}</td>
+		  <td>{count.Name_of_small_molecule_or_Compound}</td>
 		</tr>
 		{/each}
   </table>

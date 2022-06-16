@@ -54,7 +54,7 @@
 
 <style>
 	.nav-style {
-		background-color: rgba(0, 0, 0, 0.1);
+		background-color:white;
 		height: 15vh;
 		padding-left: 5%;
 		padding-right: 5%;
@@ -69,7 +69,7 @@
 		position: relative;
 		top: -10%;
 		left: 0%;
-		width: 80%;
+		width: 85%;
 		height: 80%;
 	}
 	.rs-align {
@@ -103,7 +103,7 @@
 		border: none;
 	}
 	.bcolor:hover {
-		color: white;
+		color: rgb(16, 176, 16);
 	}
 	.rs-phone {
 		color: black;

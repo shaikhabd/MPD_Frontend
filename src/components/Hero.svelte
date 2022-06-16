@@ -1,6 +1,6 @@
-<section id="home" style="background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,0.9308765742625175) 0%, rgba(255,255,255,0) 100%);" class="size">
+<section id="home" class="size" style="background-color: #0072bc	;">
   <div class="parent spacing"  >
+    <img src="dna.svg" alt="">
     <div child>
     <p class="rs-phone">
       Welcome to MIT MPD<span class=""></span> 
@@ -30,11 +30,21 @@ loop: true
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 4;
   }
 .spacing{
   display: inline;
+  position: relative;
+  z-index: 3;
 }
-
+img{
+  position: absolute;
+  height: 50vh;
+  width: 40vh;
+  right: -30%;
+  z-index: -1;
+  fill: aliceblue;
+}
 .rs-phone{
   font-size: 70px; 
   text-align: center;

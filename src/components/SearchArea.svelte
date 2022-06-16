@@ -21,7 +21,7 @@ let example = ["e.g.Amla, Dhatura, Bhangra","e.g.Hyoscyamine, Daucosterol, Veraz
 <section id="sb" class="hero color is-halfheight">
 	<div class="maindiv">
 		<div class="align">
-			<p style="color: white;" class="title">Search Plant Information:</p>
+			<p style="color:#4caae7;" class="title">Search Plant Information:</p>
 		</div>
 		<br />
 		<div>
@@ -45,7 +45,7 @@ let example = ["e.g.Amla, Dhatura, Bhangra","e.g.Hyoscyamine, Daucosterol, Veraz
 				/>
 				<button
 					style="border-top-left-radius:0; border-bottom-left-radius:0;"
-					class="button is-dark">Search</button
+					class="button green">Search</button
 				>
 			</form>
 			<h6 style="margin-left: 28%;">
@@ -65,6 +65,10 @@ let example = ["e.g.Amla, Dhatura, Bhangra","e.g.Hyoscyamine, Daucosterol, Veraz
 </section>
 
 <style>
+	.green{
+		background-color: #22b36c;
+		color: white;
+	}
 	.maindiv {
 		padding: 2%;
 	}
@@ -73,7 +77,7 @@ let example = ["e.g.Amla, Dhatura, Bhangra","e.g.Hyoscyamine, Daucosterol, Veraz
 		justify-content: center;
 	}
 	.color {
-		background-color: #239B56;
+		background-color: aliceblue;
 	}
 	.align2 {
 		display: flex;

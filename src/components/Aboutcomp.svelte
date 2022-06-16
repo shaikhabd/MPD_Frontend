@@ -1,6 +1,6 @@
 <section class="hero color is-halfheight">
   <div class="maindiv">
-    <p style="color:#82E0AA;" class="title">
+    <p style="color:#4caae7;" class="title">
     About the Database
     </p>
     <p>
@@ -8,18 +8,40 @@
 
         It is a one stop solution to analyze the molecular interaction between identified virulent bacterial targets and natural products.
         </p> <br>
-        <a href="About">Learn more -></a>
+        <a  href="About">Learn more -></a>
   </div>
 </section>
 
 <style>
+  a{
+    font-size: large;
+  }
+    a:link {
+    color:#22b36c;
+   text-decoration: none;
+    }
+    a:visited {
+  color: #22b36c;
+  background-color: transparent;
+  text-decoration: none;
+}
+    a:active {
+  color: #4caae7;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color:#4caae7;
+  background-color: transparent;
+  text-decoration: none;
+}
     .maindiv{
         padding: 2%;
     }
     .color{
-        background-color:black;
+        background-color:white;
     }
     p{
-        color: white;
+        color: black;
     }    
 </style>
