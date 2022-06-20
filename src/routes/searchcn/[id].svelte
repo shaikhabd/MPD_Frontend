@@ -29,7 +29,7 @@ crossorigin="anonymous"> </script>
 	<section style="display: flex;">
 	<div style="width: 20%; background-color: aliceblue;top: 1%;">
 		<ul style="position: sticky; top: 1%; padding: 7%;list-style-type: disc; color: black;">
-			<li style="margin: 5%;"><a class ="linker"href="#ci">Compound Information</a></li>
+			<li style="margin: 5%; overflow: hidden;"><a class ="linker"href="#ci">Compound Information</a></li>
 			<li  style="margin: 5%;"><a  class ="linker"href="#tg">Target Gene</a> </li>
 			<li  style="margin: 5%;"><a  class ="linker"href="#tp">Target Protein</a> </li>
 		</ul>
