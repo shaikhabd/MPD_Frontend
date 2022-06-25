@@ -35,16 +35,16 @@
 				<a href="/" class="button bcolor false">
 					<strong>Home</strong>
 				</a>
-				<a href="About" class="button bcolor false">
+				<a href="https://mitmpd.netlify.app/About" class="button bcolor false">
 					<strong>About</strong>
 				</a>
-				<a href="#sb" class="button bcolor false">
+				<a href="https://mitmpd.netlify.app/#sb" class="button bcolor false">
 					<strong>Search</strong>
 				</a>
-				<a href="tools" class="button bcolor false">
+				<a href="https://mitmpd.netlify.app/tools" class="button bcolor false">
 					<strong>Tools</strong>
 				</a>
-				<a href="Help" class="button bcolor false">
+				<a href="https://mitmpd.netlify.app/Help" class="button bcolor false">
 					<strong>Help</strong>
 				</a>
 			</div>

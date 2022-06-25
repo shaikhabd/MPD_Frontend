@@ -21,22 +21,20 @@ import Footer from "../components/Footer.svelte";
 		<br />
 		<h2 style="color: #22b36c;font-size: large; font-weight: 620;">List of Plants Available</h2>
 		<ul>
-			<li>• Alder - Alnus</li>
-			<li>• Black alder – Alnus glutinosa, Ilex verticillata</li>
-			<li>• Common alder – Alnus glutinosa</li>
-			<li>• False alder – Ilex verticillata</li>
-			<li>• Gray alder – Alnus incana</li>
-			<li>• Speckled alder – Alnus incana</li>
-			<li>• White alder – Alnus incana, Alnus rhombifolia, Ilex verticillata</li>
+			<li>• Dhatura - Angel's trumpet</li>
+			<li>• Bhangra - Eclipta Prostrata</li>
+			<li>• Amla - Emblica officinalis Gaertn.</li>
+			<li>• Giloy - Tinospora sinensis (Lour.) Merr.</li>
+			<li>• Punarnava - Red Spiderling, Spreading Hogweed, Tarvine
+			</li>
+			<li>• Parijat - Harshingar</li>
+			<li>• Ginger - Adraka, Ginger Root</li>
 			<li>• Almond – Prunus dulcis</li>
 			<li>• Aloe vera – Aloe vera</li>
-			<li>• Amaranth – Amaranthus</li>
-			<li>• Foxtail amaranth – Amaranthus caudatus</li>
-			<li>• Ambrosia</li>
-			<li>• Tall ambrosia – Ambrosia trifida</li>
-			<li>• Amy root – Apocynum cannabinum</li>
-			<li>• Angel trumpet – Brugmansia suaveolens</li>
-		</ul>
+			<li>• Chaste Tree - Agnus castus, Chasteberry, Hemp tree, Monk's pepper, and Vitex.</li>
+			<li>• Bael - Bengal quince, golden apple, Japanese bitter orange, stone apple or wood apple</li>
+			<li>• Ratanjyot - Jatropha curcas L.
+			</li>
 	</div>
 </section>
 <section>
