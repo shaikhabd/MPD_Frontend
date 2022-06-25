@@ -1,6 +1,5 @@
 <section id="home" class="size" style="background-color: #0072bc	;">
   <div class="parent spacing"  >
-    <img src="dna.svg" alt="">
     <div child>
     <p class="rs-phone">
       Welcome to MIT MPD<span class=""></span> 
