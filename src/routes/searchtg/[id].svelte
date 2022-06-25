@@ -1,6 +1,6 @@
 <script context="module">
 	export async function load({ fetch , params }) {
-		const res = await fetch('http://localhost:8080/Search/targetgene/'+params.id);
+		const res = await fetch('http://backendexpress-env.eba-mstkmt6p.us-east-1.elasticbeanstalk.com/Search/targetgene/'+params.id);
 		const data = await res.json();
 		if (res.ok) {
 			return {
