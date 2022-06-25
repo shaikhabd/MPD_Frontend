@@ -11,6 +11,8 @@
 			goto('/searchtg/' + SearchValue);
 		} else if (selected == 3) {
 			goto('/searchtp/' + SearchValue);
+		} else if (selected == 4) {
+			goto('/searchte/' + SearchValue);
 		}
 	}
 	let example = [
@@ -39,6 +41,7 @@
 					<option value="1">Chemical Compound </option>
 					<option value="2">Target Gene </option>
 					<option value="3">Target Protein </option>
+					<option value="4">Therapeutic </option>
 				</select>
 				{#if selected == 0}
 					<select
@@ -104,7 +107,26 @@
 							>Muscarinic acetylcholine receptor M2</option
 						>
 					</select>
-				{/if}
+					{/if}
+				{#if selected == 4}
+				<select
+					bind:value={SearchValue}
+					style="margin-right:2%; width:40%;font-weight: 600;"
+					class="form-select size"
+					aria-label="Default select example"
+				>
+					<option value="Anticholinergic, Antiemetic, Antivertigo" selected
+						>Anticholinergic, Antiemetic, Antivertigo</option
+					>
+					<option value="Antimuscarinic"
+						>Antimuscarinic</option
+					>
+					<option value="Anti-inflammatory"
+						>Anti-inflammatory</option
+					>
+				</select>
+				
+			{/if}
 				<input
 					bind:value={SearchValue}
 					style="border-top-right-radius:0; border-bottom-right-radius:0;"
