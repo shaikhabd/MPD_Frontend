@@ -48,7 +48,7 @@ crossorigin="anonymous"> </script>
 <img style="margin-left: 2%;" height="100" width="200" src="https://go.drugbank.com/structures/{DataBySpeciesName[0].Drugbank_inactive}/image.svg" alt="image not available">
 <p style="margin-left: 2%; font-weight: 300;">Smiles: {DataBySpeciesName[0].SMILES}</p>
 <!-- {DataBySpeciesName[0].drugBank_Id} -->
-<button class="sbutton"><a target="_blank" style="text-decoration: none; color: white;" href="http://localhost:8080/mol3Dview/{DataBySpeciesName[0].Name_of_small_molecule_or_Compound}">View 3D Structure</a></button>
+<button class="sbutton"><a target="_blank" style="text-decoration: none; color: white;" href="http://backendexpress-env.eba-mstkmt6p.us-east-1.elasticbeanstalk.com/mol3Dview/{DataBySpeciesName[0].Name_of_small_molecule_or_Compound}">View 3D Structure</a></button>
 <hr>
 <p class="space"><label for="text">Mode Of Action: </label>{DataBySpeciesName[0].MoA}</p><hr>
 <p class="space"><label for="text">Side_Effects_or_Toxicity: </label>{DataBySpeciesName[0].Side_Effects_or_Toxicity}</p><hr>
