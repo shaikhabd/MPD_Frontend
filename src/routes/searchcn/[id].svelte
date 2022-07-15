@@ -153,7 +153,7 @@ crossorigin="anonymous"> </script>
 		border-bottom: solid black 1.5px;
 	}
 	.gcolor{
-		background:linear-gradient(180deg, #4bf7a7 0%, #63f636 100%);
+		background:linear-gradient(180deg, #4caae7 0%, #64b6ec 100%);
 	}
 	.curve{
 		border-top-left-radius: 15px;

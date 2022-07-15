@@ -66,12 +66,126 @@
 						class="form-select size"
 						aria-label="Default select example"
 					>
-						<option value="Hyoscyamine">Hyoscyamine</option>
-						<option value="Daucosterol">Daucosterol</option>
-						<option value="Verazine">Verazine</option>
-						<option value="Linoleic acid">Linoleic acid</option>
+						<option value="Hyoscine_or_Scopolamine">Hyoscine_or_Scopolamine</option>
+						<option value="Hyoscyamine">Hyoscyamine </option>
+						<option value="Micotianamine">Micotianamine </option>
+						<option
+							value="Atropine
+						"
+							>Atropine
+						</option>
 						<option value="Oleic acid">Oleic acid</option>
-						<option value="Datumetelin">Datumetelin</option>
+						<option
+							value="Daturilin
+						"
+							>Daturilin
+						</option>
+						<option
+							value="β-sitosterol
+						"
+							>β-sitosterol
+						</option>
+						<option
+							value="Daturaolone
+						"
+							>Daturaolone
+						</option>
+						<option
+							value="Daturadiol
+						"
+							>Daturadiol
+						</option>
+						<option
+							value="Hyosane
+						"
+							>Hyosane
+						</option>
+						<option
+							value="Fastusic acid
+						"
+							>Fastusic acid
+						</option>
+						<option
+							value="Fastusine
+						"
+							>Fastusine
+						</option>
+						<option
+							value="Fastusinine
+						"
+							>Fastusinine
+						</option>
+						<option
+							value="Fastunine
+						"
+							>Fastunine
+						</option>
+						<option
+							value="Fastudine
+						"
+							>Fastudine
+						</option>
+						<option
+							value="Daluranlone
+						"
+							>Daluranlone
+						</option>
+						<option
+							value="Citrostadienol
+						"
+							>Citrostadienol
+						</option>
+						<option
+							value="Obtusifoliol
+						"
+							>Obtusifoliol
+						</option>
+						<option
+							value="Allantoin
+						"
+							>Allantoin
+						</option>
+						<option value="Linoleic acid">Linoleic acid</option>
+						<option value="Datumetine">Datumetine</option>
+						<option value="Vitamin C">Vitamin C</option>
+						<option value="Chlorogenic acid">Chlorogenic acid</option>
+						<option value="β-Me-sterols">β-Me-sterols</option>
+						<option value="Tigloidine">Tigloidine</option>
+						<option
+							value="Apohyoscine
+						"
+							>Apohyoscine
+						</option>
+						<option
+							value="3α-tigloyloxytropane
+						"
+							>3α-tigloyloxytropane
+						</option>
+						<option
+							value="Norhyoscine
+						"
+							>Norhyoscine
+						</option>
+						<option
+							value="Norhyocyamine
+						"
+							>Norhyocyamine
+						</option>
+						<option
+							value="Meteloidine
+						"
+							>Meteloidine
+						</option>
+						<option
+							value="Cuscohygrine
+						"
+							>Cuscohygrine
+						</option>
+						<option
+							value="Tropine
+						"
+							>Tropine
+						</option>
 					</select>
 				{/if}
 				{#if selected == 2}
@@ -107,26 +221,21 @@
 							>Muscarinic acetylcholine receptor M2</option
 						>
 					</select>
-					{/if}
+				{/if}
 				{#if selected == 4}
-				<select
-					bind:value={SearchValue}
-					style="margin-right:2%; width:40%;font-weight: 600;"
-					class="form-select size"
-					aria-label="Default select example"
-				>
-					<option value="Anticholinergic, Antiemetic, Antivertigo" selected
-						>Anticholinergic, Antiemetic, Antivertigo</option
+					<select
+						bind:value={SearchValue}
+						style="margin-right:2%; width:40%;font-weight: 600;"
+						class="form-select size"
+						aria-label="Default select example"
 					>
-					<option value="Antimuscarinic"
-						>Antimuscarinic</option
-					>
-					<option value="Anti-inflammatory"
-						>Anti-inflammatory</option
-					>
-				</select>
-				
-			{/if}
+						<option value="Anticholinergic, Antiemetic, Antivertigo" selected
+							>Anticholinergic, Antiemetic, Antivertigo</option
+						>
+						<option value="Antimuscarinic">Antimuscarinic</option>
+						<option value="Anti-inflammatory">Anti-inflammatory</option>
+					</select>
+				{/if}
 				<input
 					bind:value={SearchValue}
 					style="border-top-right-radius:0; border-bottom-right-radius:0;"
