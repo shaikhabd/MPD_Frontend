@@ -40,7 +40,7 @@ crossorigin="anonymous"> </script>
 <div style="margin-left: 1%; margin-right: 1%; padding-bottom: 2%; width:100%;">
  <br>
 <div id="ci" class="bg-holder curve" style=" background-color: aliceblue;">
-<h1 class="curve gcolor" style=" background:linear-gradient(180deg, #4bf7aa 0%, #63f636 100%); padding: 1.3%; font-size: larger; color:white; margin-bottom: 2%;font-weight: 600;">Compound Information</h1>
+<h1 class="curve gcolor" style="padding: 1.3%; font-size: larger; color:white; margin-bottom: 2%;font-weight: 600;">Compound Information</h1>
 <p class="space" ><label for="text">Name: </label>{DataBySpeciesName[0].Name_of_small_molecule_or_Compound}</p><hr>
 <p class="space" ><label for="text">PubChem_Id: </label><a target="_blank" href="{DataBySpeciesName[0].PubChem_link}">{DataBySpeciesName[0].PubChem_Id}</a></p><hr>
 <p class="space"><label for="text">DrugBank_Id: </label><a target="_blank" href="{DataBySpeciesName[0].Drugbank_link}">{DataBySpeciesName[0].Drugbank_inactive}</a></p><hr>
