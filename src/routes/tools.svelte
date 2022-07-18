@@ -21,7 +21,6 @@ import Navbar from "../components/Navbar.svelte";
     <button style="display:flex;align-items:center; justify-content:center; font-weight: 600;color:black;width: 50vw;height: 10vh; font-size:larger ;background-color:#22b36c;border: none;"><a href="http://chemmine.ucr.edu/eisearch/query/">Structural Similarity Search</a></button>
     </div>
 </section>
-https://mitmpd-moledits.netlify.app/
 <style>
     a{
     font-size: large;
