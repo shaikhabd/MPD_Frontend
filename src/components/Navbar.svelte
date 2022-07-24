@@ -23,7 +23,7 @@
 		</a>
 		<img src="https://www.mitbio.edu.in/wp-content/themes/mitsbrs/assets/images/logo.png" alt="https://www.mitbio.edu.in/wp-content/themes/mitsbrs/assets/images/logo.png"/>
 	</div>
-
+    
 	<button class="menu-toggle">
 		<span class="bar" />
 		<span class="bar" />
@@ -140,3 +140,17 @@
 		}
 	}
 </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
