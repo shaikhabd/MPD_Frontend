@@ -24,7 +24,7 @@ export let DataBySpeciesName;
 	
 	<div class="gcolor" style="padding: 0.6%;">
 		<h1 style="font-weight: 700; font-size: larger; margin-left: 20vw; color: white;">
-			Result for {DataBySpeciesName[0].Therapeutic}
+			Results for Therapeutics 
 		</h1>
 	</div>
 	<section style="display: flex;">

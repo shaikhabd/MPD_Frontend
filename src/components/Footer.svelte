@@ -11,7 +11,7 @@
 <style>
 	.color {
 		position: relative;
-		bottom: 0%;
+		bottom: 0;
 		background-color: black;
 		height: 15vh;
 		color: white;
